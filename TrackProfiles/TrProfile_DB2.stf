@@ -7,10 +7,22 @@ TrProfile ( Name ( "DB2" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) P
 	<!-- TODO: mt_rside -->
 	<!-- TODO: mt_rtops -->
 	<!-- TODO: mt_tclamps -->
-	<!-- TODO: mt_trackbed -->
+	<!-- TODO: mt_trackbed textures -->
 	
 	
 	LOD ( CutoffRadius ( 500 )
+		LODItem ( Name ( "mb_sleeperbase" ) TexName ( "blank.ace" ) ShaderName ( "BlendATexDiff" )
+			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )
+			ESD_Alternative_Texture ( 1 ) MipMapLevelOfDetailBias ( -1 )
+			Polyline ( Name ( "mb_sleeperbase_left" ) DeltaTexCoord ( 0.0 0.0 )
+				Vertex ( Position ( -1.0499999523162842 -0.15000000596046448 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.0 ) )
+				Vertex ( Position ( -0.45000001788139343 -0.15000000596046448 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.0 ) )
+			)
+			Polyline ( Name ( "mb_sleeperbase_right" ) DeltaTexCoord ( 0.0 0.0 )
+				Vertex ( Position ( 0.45000001788139343 -0.15000000596046448 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.0 ) )
+				Vertex ( Position ( 1.0499999523162842 -0.15000000596046448 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.0 ) )
+			)
+		)
 		LODItem ( Name ( "mt_trackbed" ) TexName ( "blank.ace" ) ShaderName ( "BlendATexDiff" )
 			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )
 			ESD_Alternative_Texture ( 1 ) MipMapLevelOfDetailBias ( -1 )
@@ -36,6 +48,18 @@ TrProfile ( Name ( "DB2" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) P
 		)
 	)
 	LOD ( CutoffRadius ( 800 )
+		LODItem ( Name ( "mb_sleeperbase" ) TexName ( "blank.ace" ) ShaderName ( "BlendATexDiff" )
+			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )
+			ESD_Alternative_Texture ( 1 ) MipMapLevelOfDetailBias ( -1 )
+			Polyline ( Name ( "mb_sleeperbase_left" ) DeltaTexCoord ( 0.0 0.0 )
+				Vertex ( Position ( -1.0499999523162842 -0.15000000596046448 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.0 ) )
+				Vertex ( Position ( -0.45000001788139343 -0.15000000596046448 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.0 ) )
+			)
+			Polyline ( Name ( "mb_sleeperbase_right" ) DeltaTexCoord ( 0.0 0.0 )
+				Vertex ( Position ( 0.45000001788139343 -0.15000000596046448 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.0 ) )
+				Vertex ( Position ( 1.0499999523162842 -0.15000000596046448 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.0 ) )
+			)
+		)
 		LODItem ( Name ( "mt_trackbed" ) TexName ( "blank.ace" ) ShaderName ( "BlendATexDiff" )
 			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )
 			ESD_Alternative_Texture ( 1 ) MipMapLevelOfDetailBias ( -1 )
