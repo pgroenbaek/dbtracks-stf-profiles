@@ -1,16 +1,14 @@
 
 # DBTracks XML Profiles
 
-An attempt to mimic DBTracks in the OpenRails XML track profile format.
+An attempt to mimic DBTracks as best as possible in the OpenRails XML track profile format.
 
-Meant to enable use of the superelevation feature in OpenRails together with Norbert Rieger's DBTracks.
+These profiles are meant to enable use of the superelevation feature in OpenRails together with Norbert Rieger's DBTracks.
 
 
 ## Usage
 
-This repository only contains the XML track profiles.
-
-The textures need to be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
+This repository only contains the XML track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
 ### Adding the profiles to your route
 
