@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TrProfile
+	xmlns="TrProfile.xsd" Name="DB2" LODMethod="ComponentAdditive" ChordSpan="1"
+PitchControl="ChordLength" PitchControlScalar="10">
+	<!-- TODO: mb_sleeperbase -->
+	<!-- TODO: mb_trackbed -->
+	<!-- TODO: mt_rside -->
+	<!-- TODO: mt_rtops -->
+	<!-- TODO: mt_tclamps -->
+	<!-- TODO: mt_trackbed -->
+	<LOD CutoffRadius="700">
+		<LODItem Name="Railsides" TexName="acleantrack2.ace" ShaderName="TexDiff" LightModelName="OptSpecular0"
+AlphaTestMode="0" TexAddrModeName="Wrap" ESD_Alternative_Texture="0" MipMapLevelOfDetailBias="0">
+			<Polyline Name="left_outer" DeltaTexCoord="0.1673372 0">
+				<Vertex Position="-0.8675 0.2 0" Normal="-1 0 0" TexCoord="-0.139362 0.101563" />
+				<Vertex Position="-0.8675 0.325 0" Normal="-1 0 0" TexCoord="-0.139363 0.003906" />
+			</Polyline>
+			<Polyline Name="left_inner" DeltaTexCoord="0.1673372 0">
+				<Vertex Position="-0.7175 0.325 0" Normal="1 0 0" TexCoord="-0.139363 0.003906" />
+				<Vertex Position="-0.7175 0.2 0" Normal="1 0 0" TexCoord="-0.139362 0.101563" />
+			</Polyline>
+			<Polyline Name="right_inner" DeltaTexCoord="0.1673372 0">
+				<Vertex Position="0.7175 0.2 0" Normal="-1 0 0" TexCoord="-0.139362 0.101563" />
+				<Vertex Position="0.7175 0.325 0" Normal="-1 0 0" TexCoord="-0.139363 0.003906" />
+			</Polyline>
+			<Polyline Name="right_outer" DeltaTexCoord="0.1673372 0">
+				<Vertex Position="0.8675 0.325 0" Normal="1 0 0" TexCoord="-0.139363 0.003906" />
+				<Vertex Position="0.8675 0.2 0" Normal="1 0 0" TexCoord="-0.139362 0.101563" />
+			</Polyline>
+		</LODItem>
+	</LOD>
+	<LOD CutoffRadius="1200">
+		<LODItem Name="Railtops" TexName="acleantrack2.ace" ShaderName="TexDiff" LightModelName="OptSpecular25"
+AlphaTestMode="0" TexAddrModeName="Wrap" ESD_Alternative_Texture="0" MipMapLevelOfDetailBias="0">
+			<Polyline Name="right" DeltaTexCoord="0.0744726 0">
+				<Vertex Position="-0.8675 0.325 0" Normal="0 1 0" TexCoord="0.232067 0.126953" />
+				<Vertex Position="-0.7175 0.325 0" Normal="0 1 0" TexCoord="0.232067 0.224609" />
+			</Polyline>
+			<Polyline Name="left" DeltaTexCoord="0.0744726 0">
+				<Vertex Position="0.7175 0.325 0" Normal="0 1 0" TexCoord="0.232067 0.126953" />
+				<Vertex Position="0.8675 0.325 0" Normal="0 1 0" TexCoord="0.232067 0.224609" />
+			</Polyline>
+		</LODItem>
+	</LOD>
+	<LOD CutoffRadius="2000">
+		<LODItem Name="Ballast" TexName="acleantrack1.ace" ShaderName="BlendATexDiff" LightModelName="OptSpecular0"
+AlphaTestMode="0" TexAddrModeName="Wrap" ESD_Alternative_Texture="1" MipMapLevelOfDetailBias="-1">
+			<Polyline Name="ballast" DeltaTexCoord="0 0.2088545">
+				<Vertex Position="-2.5 0.2 0" Normal="0 1 0" TexCoord="-0.153916 -0.280582" />
+				<Vertex Position="2.5 0.2 0" Normal="0 1 0" TexCoord="0.862105 -0.280582" />
+			</Polyline>
+		</LODItem>
+	</LOD>
+</TrProfile>
