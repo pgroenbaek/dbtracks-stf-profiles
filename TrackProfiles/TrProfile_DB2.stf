@@ -1,5 +1,5 @@
 SIMISA@@@@@@@@@@JINX0p0t______
-TrProfile ( Name ( "Default Dynatrack Profile" ) LODMethod ( "ComponentAdditive" ) ChordSpan ( 1 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
+TrProfile ( Name ( "DB2" ) LODMethod ( "ComponentAdditive" ) ChordSpan ( 1 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
 
 
 	<!-- TODO: mb_sleeperbase -->
@@ -19,8 +19,8 @@ TrProfile ( Name ( "Default Dynatrack Profile" ) LODMethod ( "ComponentAdditive"
 				Vertex ( Position ( -1.7000000476837158 -0.13589999079704285 ) Normal ( 0 1 0 ) TexCoord ( 0.862105 -0.280582 ) )
 			)
 			Polyline ( Name ( "ballast_right" ) DeltaTexCoord ( 0 0.2088545 )
-				Vertex ( Position ( -2.5999999046325684 0.019999999552965164 ) Normal ( 0 1 0 ) TexCoord ( -0.153916 -0.280582 ) )
-				Vertex ( Position ( -1.7000000476837158 -0.13589999079704285 ) Normal ( 0 1 0 ) TexCoord ( 0.862105 -0.280582 ) )
+				Vertex ( Position ( 1.7000000476837158 -0.13589999079704285 ) Normal ( 0 1 0 ) TexCoord ( -0.153916 -0.280582 ) )
+				Vertex ( Position ( 2.5999999046325684 0.019999999552965164 ) Normal ( 0 1 0 ) TexCoord ( 0.862105 -0.280582 ) )
 			)
 		)
 	)
