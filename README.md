@@ -1,9 +1,9 @@
 
 # DBTracks STF Profiles
 
-An attempt to mimic DBTracks as best as possible using the OpenRails STF track profile format.
+This is an attempt to mimic DBTracks as best as possible using the OpenRails STF track profile format.
 
-These profiles are meant to enable use of the superelevation feature in OpenRails together with Norbert Rieger's DBTracks.
+These profiles allows for use of the superelevation feature in OpenRails together with Norbert Rieger's DBTracks.
 
 
 ## Usage
