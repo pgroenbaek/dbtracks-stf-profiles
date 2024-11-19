@@ -1,17 +1,5 @@
 SIMISA@@@@@@@@@@JINX0p0t______
 TrProfile ( Name ( "DB2" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
-
-
-	<!-- TODO: mt_rtops textures -->
-	<!-- TODO: mt_rside textures -->
-	<!-- TODO: mb_rbase textures -->
-	<!-- TODO: mb_tclamps textures -->
-	<!-- TODO: mb_sleepers textures -->
-	<!-- TODO: mb_sleeperbase textures -->
-	<!-- TODO: mt_trackbed textures -->
-	<!-- TODO: mb_trackbed textures -->
-
-	
 	LOD ( CutoffRadius ( 500 )
 		LODItem ( Name ( "mt_rtops" ) TexName ( "blank.ace" ) ShaderName ( "BlendATexDiff" )
 			LightModelName ( "OptSpecular25" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )
