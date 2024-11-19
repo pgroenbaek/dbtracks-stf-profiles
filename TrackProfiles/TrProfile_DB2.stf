@@ -3,7 +3,7 @@ TrProfile ( Name ( "DB2" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) P
 
 
 	<!-- TODO: mb_sleeperbase -->
-	<!-- TODO: mb_trackbed -->
+	<!-- TODO: mb_trackbed textures -->
 	<!-- TODO: mt_rside -->
 	<!-- TODO: mt_rtops -->
 	<!-- TODO: mt_tclamps -->
