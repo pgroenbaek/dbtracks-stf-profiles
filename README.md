@@ -8,7 +8,7 @@ These profiles are meant to enable use of the superelevation feature in OpenRail
 
 ## Usage
 
-This repository only contains the STF track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
+This repository only contains the STF track profiles. The textures needed can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
 More information on track profiles in OpenRails is [available here](https://static.openrails.org/files/OpenRails-Testing-How%20to%20Provide%20Track%20Profiles%20for%20Open%20Rails%20Dynamic%20Track.pdf).
 
