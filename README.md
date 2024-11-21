@@ -26,12 +26,26 @@ The plan is to add STF profiles for all DBTracks profiles.
 
 | DBTracks package | Variants to do | Variants done |
 |--------------------|--------------------|------------------------|
-| DB1                | DB1b, DB1f, DB1fb, DB1sh, DB1z, DB1s, DB10f, DB10fb, DB11, DB11f, DB11fb | DB1, DB10 |
-| DB2                | DB21, DB23,   | DB2, DB20, DB22 |
-| DB3                | DB3, DB30 |  |
+| DB1                | DB1b, DB1f, DB1fb, DB1sh, DB1z, DB1s | DB1|
+| DB10               | DB10f, DB10fb, DB11, DB11f, DB11fb | DB10 |
+| DB11               | DB11, DB11f, DB11fb |  |
+| DB2                |  | DB2 |
+| DB20               |  | DB20 |
+| DB21               | DB21 |  |
+| DB22               |  | DB22 |
+| DB23               | DB23 |  |
+| DB3                | DB3 |  |
+| DB30               | DB30 |  |
 | DB4                | DB4, DB40 |  |
+| DB40               | DB40 |  |
 | DB5                | DB5, DB50, DB51, DB52, DB501, DB502 |  |
-| DR2                | DR2, DR20 |   |
+| DB50               | DB50 |  |
+| DB51               | DB51 |  |
+| DB52               | DB52 |  |
+| DB501              | DB501 |  |
+| DB502              | DB502 |  |
+| DR2                | DR2 |   |
+| DR20               | DR20 |   |
 
 ## Known issues
 
