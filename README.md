@@ -10,12 +10,16 @@ These track profiles enable use of the superelevation feature in Open Rails toge
 
 TODO How to add them to a route
 
+
 This repository only contains the STF track profiles. The textures needed can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
 ## Usage
 
 TODO How to use
+
+
 TODO How to enable superelevation in Open Rails
+
 
 More information on track profiles in Open Rails is [available here](https://static.openrails.org/files/OpenRails-Testing-How%20to%20Provide%20Track%20Profiles%20for%20Open%20Rails%20Dynamic%20Track.pdf).
 
@@ -46,6 +50,9 @@ The plan is to add STF profiles for all DBTracks profiles.
 | DB502             | DB502, DB502b, DB502f, DB502fb                   |               |
 | DR2               | DR2, DR2b, DR2f, DR2fb                           |               |
 | DR20              | DR20, DR20f                                      |               |
+| V4hs              | V4hs_DB1, V4hs_R2k, V4hs_RKL                     |               |
+
+Feel free to create an issue or pull request if you want more added.
 
 ## Known issues
 
@@ -57,4 +64,4 @@ These STF track profiles are licensed under [CC BY-NC-SA 4.0](https://creativeco
 
 ## Acknowledgements
 
-All credit goes to Norbart Rieger who is the author of the original DBTracks shapes.
+All credit goes to Norbert Rieger who is the author of the original DBTracks shapes.
