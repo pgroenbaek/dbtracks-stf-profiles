@@ -26,7 +26,7 @@ More information on track profiles in Open Rails is [available here](https://sta
 
 ## Roadmap
 
-The plan is to add STF profiles for all DBTracks profiles.
+The plan is to add STF profiles for all DBTracks variants.
 
 | DBTracks package  | Variants to do                                   | Variants done |
 |-------------------|--------------------------------------------------|---------------|
@@ -52,11 +52,13 @@ The plan is to add STF profiles for all DBTracks profiles.
 | DR20              | DR20, DR20f                                      |               |
 | V4hs              | V4hs_DB1, V4hs_R2k, V4hs_RKL                     |               |
 
-Feel free to create an issue or pull request if you want more added.
+Feel free to suggest more by creating an issue or submitting a pull request if you want more added.
 
 ## Known issues
 
-TODO
+- Have yet to find a good way to place objects at an interval along the generated track. For example connectors between the two overhead wires for f-variants and supports for the 3rd rail in sh-variants.
+- When superelevation is enabled Open Rails will generally remove the existing curved track sections. But this does not happen for Dynatrax pieces that have both curved and straight sections. If such Dynatrax pieces exist in a route you will find that the superelevated sections overlap with those Dynatrax pieces (at least in Open Rails 1.5.1).
+
 
 ## License:
 
