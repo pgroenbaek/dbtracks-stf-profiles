@@ -24,28 +24,28 @@ More information on track profiles in Open Rails is [available here](https://sta
 
 The plan is to add STF profiles for all DBTracks profiles.
 
-| DBTracks package | Variants to do | Variants done |
-|--------------------|--------------------|------------------------|
-| DB1                | DB1b, DB1f, DB1fb, DB1sh, DB1z, DB1s | DB1|
-| DB10               | DB10f, DB10fb, DB11, DB11f, DB11fb | DB10 |
-| DB11               | DB11, DB11f, DB11fb |  |
-| DB2                |  | DB2 |
-| DB20               |  | DB20 |
-| DB21               | DB21 |  |
-| DB22               |  | DB22 |
-| DB23               | DB23 |  |
-| DB3                | DB3 |  |
-| DB30               | DB30 |  |
-| DB4                | DB4, DB40 |  |
-| DB40               | DB40 |  |
-| DB5                | DB5, DB50, DB51, DB52, DB501, DB502 |  |
-| DB50               | DB50 |  |
-| DB51               | DB51 |  |
-| DB52               | DB52 |  |
-| DB501              | DB501 |  |
-| DB502              | DB502 |  |
-| DR2                | DR2 |   |
-| DR20               | DR20 |   |
+| DBTracks package  | Variants to do                                   | Variants done |
+|-------------------|--------------------------------------------------|---------------|
+| DB1               | DB1b, DB1f, DB1fb, DB1s, DB1sh, DB1z             | DB1           |
+| DB10              | DB10f, DB10fb, DB11, DB11f, DB11fb               | DB10          |
+| DB11              | DB11, DB11f, DB11fb                              |               |
+| DB2               | DB2, DB2b, DB2br, DB2f, DB2fb, DB2s, DB2sh, DB2z | DB2           |
+| DB20              | DB20b, DB20f, DB20fb, DB20z                      | DB20          |
+| DB21              | DB21, DB21b, DB21f, DB21fb                       |               |
+| DB22              | DB22b, DB22f, DB22fb                             | DB22          |
+| DB23              | DB23, DB23b, DB23f, DB23fb, DB23sh               |               |
+| DB3               | DB3, DB3b, DB3br, DB3f, DB3fb, DB3sh             |               |
+| DB30              | DB30, DB30b, DB30f, DB30fb                       |               |
+| DB4               | DB4, DB4b, DB4f, DB4fb                           |               |
+| DB40              | DB40, DB40b, DB40f, DB40fb                       |               |
+| DB5               | DB5, DB5b, DB5f, DB5fb                           |               |
+| DB50              | DB50, DB50b, DB50f, DB50fb                       |               |
+| DB51              | DB51, DB51b, DB51f, DB51fb                       |               |
+| DB52              | DB52, DB52b, DB52f, DB52fb                       |               |
+| DB501             | DB501, DB501b, DB501f, DB501fb                   |               |
+| DB502             | DB502, DB502b, DB502f, DB502fb                   |               |
+| DR2               | DR2, DR2b, DR2f, DR2fb                           |               |
+| DR20              | DR20, DR20f                                      |               |
 
 ## Known issues
 
