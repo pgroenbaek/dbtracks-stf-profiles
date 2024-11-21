@@ -5,7 +5,8 @@ This is an attempt to mimic DBTracks as best as possible using the Open Rails ST
 
 These track profiles enable use of the superelevation feature in Open Rails together with Norbert Rieger's DBTracks.
 
-If you want to generate track pieces to place in a route you are better off using the DPP profiles provided by Norbert with Dynatrax.
+If you want to generate track pieces to place within a route you are better off using the DPP profiles provided by Norbert with Dynatrax.
+
 
 ## Installation
 
@@ -14,6 +15,7 @@ TODO how and where to add them
 This repository only contains the STF track profiles. The textures needed can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
 You most likely have the textures in your route already if you ever need these profiles for superelevation.
+
 
 ## Usage
 
@@ -50,7 +52,8 @@ The plan is to add STF profiles for all DBTracks variants.
 | DR20              | DR20, DR20f                                      |               |
 | V4hs              | V4hs_DB1, V4hs_R2k, V4hs_RKL                     |               |
 
-Feel free to suggest more by creating an issue or submitting a pull request if you want more added.
+Feel free to suggest more by creating an issue, or by submitting a pull request if you want more added.
+
 
 ## Known issues
 
@@ -62,7 +65,9 @@ Feel free to suggest more by creating an issue or submitting a pull request if y
 
 These STF track profiles are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
+
 ## Acknowledgements
+
 In memory of Norbert Rieger.
 
 All credit goes to Norbert as he is the author of the original DBTracks shapes.
