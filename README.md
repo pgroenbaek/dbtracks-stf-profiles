@@ -3,7 +3,7 @@
 
 This is an attempt to mimic DBTracks as best as possible using the OpenRails STF track profile format.
 
-These profiles allows for use of the superelevation feature in OpenRails together with Norbert Rieger's DBTracks.
+These track profiles enables use of the superelevation feature in OpenRails together with Norbert Rieger's DBTracks.
 
 
 ## Usage
