@@ -11,7 +11,9 @@ If you want to generate track pieces to place in a route you are better off usin
 
 TODO how and where to add them
 
-This repository only contains the STF track profiles. The textures needed can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/). You probably have the textures already if you ever need these profiles for superelevation.
+This repository only contains the STF track profiles. The textures needed can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
+
+You most likely have the textures in your route already if you ever need these profiles for superelevation.
 
 ## Usage
 
@@ -56,10 +58,11 @@ Feel free to suggest more by creating an issue or submitting a pull request if y
 - When superelevation is enabled Open Rails will generally remove the existing curved track sections. But this does not happen for Dynatrax pieces that have both curved and straight sections. If such Dynatrax pieces exist in a route you will find that the superelevated sections overlap with those Dynatrax pieces (at least in Open Rails 1.5.1).
 
 
-## License:
+## License
 
 These STF track profiles are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Acknowledgements
+In memory of Norbert Rieger.
 
-All credit goes to Norbert Rieger who is the author of the original DBTracks shapes.
+All credit goes to Norbert as he is the author of the original DBTracks shapes.
