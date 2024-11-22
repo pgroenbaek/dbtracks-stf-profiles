@@ -3,22 +3,28 @@
 
 This is an attempt to mimic DBTracks as best as possible using the Open Rails STF track profile format.
 
-These track profiles enable use of the superelevation feature in Open Rails together with Norbert Rieger's DBTracks.
+These track profiles enable use of the super-elevation feature in Open Rails together with Norbert Rieger's DBTracks.
 
-If you want to generate track pieces to place within a route you are better off using the DPP profiles provided by Norbert with Dynatrax.
+If you want to generate track pieces to place within a route these are not for you.
+
+In that case you are much better off using the DPP profiles provided by Norbert with Dynatrax.
 
 
 ## Installation
-
-TODO how and where to add them
-
 This repository only contains the STF track profiles. The textures needed can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
-You most likely have the textures in your route already if you ever need these profiles for superelevation.
+You more than likely have the textures in your route already if you ever need these profiles for super-elevation.
+
+
+### Open Rails 1.5.1:
+Pick whichever of the .stf files from [./TrackProfiles](./TrackProfiles) you want into a routes `<route folder>/TrackProfiles` folder.
+
+Rename the profile to `TrProfile.stf`.
+
+Open Rails will now generate super-elevated track in curves based on this profile, if you have super-elevation enabled in the settings.
 
 
 ## Usage
-
 A guide on how to use these track profiles is available in the [Open Rails documentation](https://open-rails.readthedocs.io/en/latest/options.html#superelevation). 
 
 More information about the technical aspects of STF track profiles in Open Rails is available in [this document](https://static.openrails.org/files/OpenRails-Testing-How%20to%20Provide%20Track%20Profiles%20for%20Open%20Rails%20Dynamic%20Track.pdf).
@@ -57,13 +63,13 @@ Feel free to suggest more by creating an issue, or by submitting a pull request 
 
 ## Known issues
 
-- Have yet to find a good way to place objects at an interval along the generated track. For example connectors between the two overhead wires for f-variants and supports for the 3rd rail in sh-variants.
+- Have yet to find a good way to place objects at an interval along the generated track. For example connectors between the two overhead wires in f-variants and supports for the 3rd rail in sh-variants.
 - When superelevation is enabled Open Rails will generally remove the existing curved track sections. But this does not happen for Dynatrax pieces that have both curved and straight sections. If such Dynatrax pieces exist in a route you will find that the superelevated sections overlap with those Dynatrax pieces (at least in Open Rails 1.5.1).
 
 
 ## License
 
-These STF track profiles are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+These STF track profiles were created by Peter Grønbæk Andersen based on Norbert Rieger's work on DBTracks and are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
 ## Acknowledgements
