@@ -17,7 +17,7 @@ You more than likely have the textures in your route already if you ever need th
 
 
 ### Open Rails 1.5.1:
-Pick whichever of the .stf files from [./TrackProfiles](./TrackProfiles) you want into a routes `<route folder>/TrackProfiles` folder.
+Pick whichever of the .stf files from [./TrackProfiles](./TrackProfiles) you want into the `<route folder>/TrackProfiles` folder.
 
 Rename the profile to `TrProfile.stf`.
 
