@@ -73,7 +73,9 @@ Feel free to suggest more by creating an issue, or by submitting a pull request 
 
 ## License
 
-These STF track profiles were created by Peter Grønbæk Andersen based on Norbert Rieger's work on DBTracks and are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+These STF track profiles were created by Peter Grønbæk Andersen based on Norbert Rieger's work on DBTracks.
+
+The profiles are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
 ## Acknowledgements
