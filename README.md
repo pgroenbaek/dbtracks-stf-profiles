@@ -11,7 +11,7 @@ In that case you are much better off using the DPP profiles provided by Norbert 
 
 
 ## Installation
-This repository only contains the STF track profiles. The textures needed can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
+This repository only contains the STF track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
 You more than likely have the textures in your route already if you ever need these profiles for super-elevation.
 
@@ -22,6 +22,10 @@ Pick whichever of the .stf files from [./TrackProfiles](./TrackProfiles) you wan
 Rename the profile to `TrProfile.stf`.
 
 Open Rails will now generate super-elevated track in curves based on this profile, if you have super-elevation enabled in the settings.
+
+
+### Open Rails 1.6+:
+TODO
 
 
 ## Usage
