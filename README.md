@@ -1,7 +1,7 @@
 
 # DBTracks STF Profiles
 
-This is an attempt to mimic DBTracks as best as possible using the Open Rails STF track profile format.
+This is an attempt to mimic DBTracks as best as possible using the STF track profile format.
 
 These track profiles enable use of the super-elevation feature in Open Rails together with Norbert Rieger's DBTracks.
 
@@ -11,7 +11,7 @@ If you wish to replace dynamic tracks within a route and/or generate new track s
 ## Installation
 This repository only contains the STF track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
-You more than likely have the textures in your route already if you ever need these profiles for super-elevation.
+You more than likely have the textures in the route already if you ever need these profiles for super-elevation.
 
 
 ### Open Rails 1.5.1:
@@ -19,7 +19,9 @@ Pick whichever of the .stf files from [./TrackProfiles](./TrackProfiles) you wan
 
 Rename the profile to `TrProfile.stf`.
 
-Open Rails will now generate super-elevated track in curves based on this profile, if you have super-elevation enabled in the settings.
+If you have super-elevation enabled in the settings Open Rails will now generate super-elevated track in curves based on this profile.
+
+AFAIK Open Rails 1.5.1 only supports using one track profile, but this will change in version 1.6.
 
 
 ### Open Rails 1.6+:
@@ -27,7 +29,7 @@ TODO
 
 
 ## Usage
-A guide on how to use these track profiles is available in the [Open Rails documentation](https://open-rails.readthedocs.io/en/latest/options.html#superelevation). 
+A more detailed guide on how to use these track profiles is available in the [Open Rails documentation](https://open-rails.readthedocs.io/en/latest/options.html#superelevation). 
 
 More information about the technical aspects of STF track profiles in Open Rails is available in [this document](https://static.openrails.org/files/OpenRails-Testing-How%20to%20Provide%20Track%20Profiles%20for%20Open%20Rails%20Dynamic%20Track.pdf).
 
@@ -46,7 +48,7 @@ The plan is to add STF profiles for all DBTracks variants.
 | DB21              | DB21, DB21b, DB21f, DB21fb                       |               |
 | DB22              | DB22b, DB22f, DB22fb                             | DB22          |
 | DB23              | DB23, DB23b, DB23f, DB23fb, DB23sh               |               |
-| DB3               | DB3, DB3b, DB3br, DB3f, DB3fb, DB3sh             |               |
+| DB3               | DB3b, DB3br, DB3f, DB3fb, DB3sh                  | DB3           |
 | DB30              | DB30, DB30b, DB30f, DB30fb                       |               |
 | DB4               | DB4, DB4b, DB4f, DB4fb                           |               |
 | DB40              | DB40, DB40b, DB40f, DB40fb                       |               |
