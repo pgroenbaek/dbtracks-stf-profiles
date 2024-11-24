@@ -5,9 +5,7 @@ This is an attempt to mimic DBTracks as best as possible using the Open Rails ST
 
 These track profiles enable use of the super-elevation feature in Open Rails together with Norbert Rieger's DBTracks.
 
-If you want to generate track pieces to place within a route these are not for you.
-
-In that case you are much better off using the DPP profiles provided by Norbert with Dynatrax.
+If you wish to replace dynamic tracks within a route and/or generate new track shapes, you should instead use the DPP profiles provided by Norbert with Dynatrax.
 
 
 ## Installation

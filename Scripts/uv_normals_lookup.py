@@ -1,6 +1,16 @@
+
+"""
+
+TODO dlevel regex does not work.
+
+Don't even try using this.
+
+Getting the normals from a shape is not really necessary for this anyways.
+
+"""
+
 import re
 
-# TODO dlevel regex does not work, so don't even try using this. Getting the normals from the shape is not really necessary anyways.
 
 def read_s_file(s_filepath):
     with open(s_filepath, 'r') as file:

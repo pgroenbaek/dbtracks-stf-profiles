@@ -1,7 +1,13 @@
-import math
 
-# Find uv values of points in a shape based on X and Y value.
-# Z values of points returned is limited to max_point_z.
+"""
+
+Find uv values of points in a shape based on X and Y value.
+
+Z values of points returned is limited to max_point_z.
+
+"""
+
+import math
 
 def read_s_file(s_filepath):
     with open(s_filepath, 'r', encoding='utf-16') as s_file:
