@@ -41,8 +41,8 @@ The plan is to add STF profiles for all DBTracks variants.
 | DBTracks package  | Variants to do                                   | Variants done |
 |-------------------|--------------------------------------------------|---------------|
 | DB1               | DB1b, DB1f, DB1fb, DB1s, DB1sh, DB1z             | DB1           |
-| DB10              | DB10f, DB10fb, DB11, DB11f, DB11fb               | DB10          |
-| DB11              | DB11, DB11f, DB11fb                              |               |
+| DB10              | DB10f, DB10fb, DB11f, DB11fb                     | DB10          |
+| DB11              | DB11f, DB11fb                                    | DB11          |
 | DB2               | DB2b, DB2br, DB2f, DB2fb, DB2s, DB2sh, DB2z      | DB2           |
 | DB20              | DB20b, DB20f, DB20fb, DB20z                      | DB20          |
 | DB21              | DB21, DB21b, DB21f, DB21fb                       |               |
@@ -58,11 +58,11 @@ The plan is to add STF profiles for all DBTracks variants.
 | DB52              | DB52, DB52b, DB52f, DB52fb                       |               |
 | DB501             | DB501, DB501b, DB501f, DB501fb                   |               |
 | DB502             | DB502, DB502b, DB502f, DB502fb                   |               |
-| DR2               | DR2, DR2b, DR2f, DR2fb                           |               |
+| DR2               | DR2b, DR2f, DR2fb                                | DR2           |
 | DR20              | DR20, DR20f                                      |               |
 | V4hs              | V4hs_DB1, V4hs_R2k, V4hs_RKL                     |               |
 
-Feel free to suggest more by creating an issue, or by submitting a pull request if you want more added.
+Feel free to suggest more by creating an issue, or by submitting a pull request with more profiles.
 
 
 ## Known issues
