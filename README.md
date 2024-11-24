@@ -21,7 +21,7 @@ Rename the profile to `TrProfile.stf`.
 
 If you have super-elevation enabled in the settings Open Rails will now generate super-elevated track in curves based on this profile.
 
-AFAIK Open Rails 1.5.1 only supports using one track profile, but this will change in version 1.6.
+AFAIK Open Rails 1.5.1 only supports using one track profile for super-elevation, but this will change in version 1.6.
 
 
 ### Open Rails 1.6+:
@@ -50,9 +50,9 @@ The plan is to add STF profiles for all DBTracks variants.
 | DB23              | DB23, DB23b, DB23f, DB23fb, DB23sh               |               |
 | DB3               | DB3b, DB3br, DB3f, DB3fb, DB3sh                  | DB3           |
 | DB30              | DB30, DB30b, DB30f, DB30fb                       |               |
-| DB4               | DB4, DB4b, DB4f, DB4fb                           |               |
+| DB4               | DB4b, DB4f, DB4fb                                | DB4           |
 | DB40              | DB40, DB40b, DB40f, DB40fb                       |               |
-| DB5               | DB5, DB5b, DB5f, DB5fb                           |               |
+| DB5               | DB5b, DB5f, DB5fb                                | DB5           |
 | DB50              | DB50, DB50b, DB50f, DB50fb                       |               |
 | DB51              | DB51, DB51b, DB51f, DB51fb                       |               |
 | DB52              | DB52, DB52b, DB52f, DB52fb                       |               |
