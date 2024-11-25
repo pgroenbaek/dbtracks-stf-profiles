@@ -43,7 +43,7 @@ The plan is to add STF profiles for all DBTracks variants.
 | DB1               | DB1b, DB1f, DB1fb, DB1s, DB1sh, DB1z             | DB1           |
 | DB10              | DB10f, DB10fb                                    | DB10          |
 | DB11              | DB11f, DB11fb                                    | DB11          |
-| DB2               | DB2b, DB2br, DB2f, DB2fb, DB2s, DB2sh, DB2z      | DB2           |
+| DB2               | DB2br, DB2fb, DB2s, DB2sh                        | DB2, DB2b, DB2f, DB2z   |
 | DB20              | DB20b, DB20f, DB20fb, DB20z                      | DB20          |
 | DB21              | DB21b, DB21f, DB21fb                             | DB21          |
 | DB22              | DB22b, DB22f, DB22fb                             | DB22          |
