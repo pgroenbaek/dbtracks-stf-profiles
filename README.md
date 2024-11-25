@@ -40,26 +40,26 @@ The plan is to add STF profiles for all DBTracks variants.
 
 | DBTracks package  | Variants to do                                   | Variants done |
 |-------------------|--------------------------------------------------|---------------|
-| DB1               | DB1b, DB1f, DB1fb, DB1s, DB1sh, DB1z             | DB1           |
-| DB10              | DB10f, DB10fb                                    | DB10          |
-| DB11              | DB11f, DB11fb                                    | DB11          |
+| DB1               | DB1b, DB1fb, DB1s, DB1sh, DB1z             | DB1, DB1f            |
+| DB10              | DB10fb                                    | DB10, DB10f          |
+| DB11              | DB11fb                                    | DB11, DB11f          |
 | DB2               | DB2br, DB2fb, DB2s, DB2sh                        | DB2, DB2b, DB2f, DB2z   |
-| DB20              | DB20b, DB20f, DB20fb, DB20z                      | DB20          |
-| DB21              | DB21b, DB21f, DB21fb                             | DB21          |
-| DB22              | DB22b, DB22f, DB22fb                             | DB22          |
-| DB23              | DB23b, DB23f, DB23fb, DB23sh                     | DB23          |
-| DB3               | DB3b, DB3br, DB3f, DB3fb, DB3sh                  | DB3           |
-| DB30              | DB30b, DB30f, DB30fb                             | DB30          |
-| DB4               | DB4b, DB4f, DB4fb                                | DB4           |
-| DB40              | DB40b, DB40f, DB40fb                             | DB40          |
-| DB5               | DB5b, DB5f, DB5fb                                | DB5           |
-| DB50              | DB50b, DB50f, DB50fb                             | DB50          |
-| DB51              | DB51b, DB51f, DB51fb                             | DB51          |
-| DB52              | DB52b, DB52f, DB52fb                             | DB52          |
-| DB501             | DB501b, DB501f, DB501fb                          | DB501         |
-| DB502             | DB502b, DB502f, DB502fb                          | DB502         |
-| DR2               | DR2b, DR2f, DR2fb                                | DR2           |
-| DR20              | DR20f                                            | DR20          |
+| DB20              | DB20b, DB20fb, DB20z                      | DB20, DB20f           |
+| DB21              | DB21b, DB21fb                             | DB21, DB21f           |
+| DB22              | DB22b, DB22fb                             | DB22, DB22f          |
+| DB23              | DB23b, DB23fb, DB23sh                     | DB23, DB23f          |
+| DB3               | DB3b, DB3br, DB3fb, DB3sh                  | DB3, DB3f           |
+| DB30              | DB30b, DB30fb                             | DB30, DB30f          |
+| DB4               | DB4b, DB4fb                                | DB4, DB4f           |
+| DB40              | DB40b, DB40fb                             | DB40, DB40f          |
+| DB5               | DB5b, DB5fb                                | DB5, DB5f           |
+| DB50              | DB50b, DB50fb                             | DB50, DB50f          |
+| DB51              | DB51b, DB51fb                             | DB51, DB51f          |
+| DB52              | DB52b, DB52fb                             | DB52, DB52f          |
+| DB501             | DB501b, DB501fb                          | DB501, DB501f         |
+| DB502             | DB502b, DB502fb                          | DB502, DB502f         |
+| DR2               | DR2b, DR2fb                                | DR2, DR2f           |
+| DR20              |                                             | DR20, DR20f          |
 | V4hs              | V4hs_DB1, V4hs_R2k, V4hs_RKL                     |               |
 
 Feel free to suggest more by creating an issue, or by submitting a pull request with more profiles.
