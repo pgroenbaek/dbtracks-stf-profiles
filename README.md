@@ -14,7 +14,7 @@ This repository only contains the STF track profiles. The textures can be obtain
 You more than likely have the textures in the route already if you ever need these profiles for super-elevation.
 
 
-### Open Rails stable version 1.5.1:
+### Open Rails _1.5.1_ (stable version):
 Pick whichever of the .stf files from [./TrackProfiles](./TrackProfiles) you want into the `<route folder>/TrackProfiles` folder.
 
 Rename the profile to `TrProfile.stf`.
@@ -26,7 +26,7 @@ Open Rails 1.5.1 stable version only supports using one track profile for super-
 Using multiple profiles is supported from testing version _T1.5.1-1390-g6936c76b8_ onwards (see below).
 
 
-### Open Rails testing version _T1.5.1-1390-g6936c76b8_ onwards:
+### Open Rails _T1.5.1-1390-g6936c76b8_ onwards (testing version):
 Copy all the .stf files from [./TrackProfiles](./TrackProfiles) into the `<route folder>/TrackProfiles` folder.
 
 Open Rails will now select track profile automatically based on the DBTracks types used in the route.
