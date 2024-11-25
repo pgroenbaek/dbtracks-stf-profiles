@@ -14,18 +14,24 @@ This repository only contains the STF track profiles. The textures can be obtain
 You more than likely have the textures in the route already if you ever need these profiles for super-elevation.
 
 
-### Open Rails 1.5.1:
+### Open Rails stable version 1.5.1:
 Pick whichever of the .stf files from [./TrackProfiles](./TrackProfiles) you want into the `<route folder>/TrackProfiles` folder.
 
 Rename the profile to `TrProfile.stf`.
 
 If you have super-elevation enabled in the settings Open Rails will now generate super-elevated track in curves based on this profile.
 
-Open Rails 1.5.1 only supports using one track profile for super-elevation. This changes from testing version _T1.5.1-1390-g6936c76b8_ onwards (see below).
+Open Rails 1.5.1 stable version only supports using one track profile for super-elevation.
+
+Using multiple profiles is supported from testing version _T1.5.1-1390-g6936c76b8_ onwards (see below).
 
 
-### Open Rails T1.5.1-1390-g6936c76b8 onwards:
-TODO
+### Open Rails testing version _T1.5.1-1390-g6936c76b8_ onwards:
+Copy all the .stf files from [./TrackProfiles](./TrackProfiles) into the `<route folder>/TrackProfiles` folder.
+
+Open Rails will now select track profile automatically based on the DBTracks types used in the route.
+
+TODO about Dynatrax generated dyntrack replacements
 
 
 ## Usage
@@ -40,11 +46,11 @@ The plan is to add STF profiles for all DBTracks variants.
 
 | DBTracks package  | Variants to do                                   | Variants done |
 |-------------------|--------------------------------------------------|---------------|
-| DB1               | DB1b, DB1fb, DB1s, DB1sh, DB1z             | DB1, DB1f            |
+| DB1               | DB1b, DB1fb, DB1s, DB1sh                     | DB1, DB1f, DB1z        |
 | DB10              | DB10fb                                    | DB10, DB10f          |
 | DB11              | DB11fb                                    | DB11, DB11f          |
 | DB2               | DB2br, DB2fb, DB2s, DB2sh                        | DB2, DB2b, DB2f, DB2z   |
-| DB20              | DB20b, DB20fb, DB20z                      | DB20, DB20f           |
+| DB20              | DB20b, DB20fb                           | DB20, DB20f, DB20z         |
 | DB21              | DB21b, DB21fb                             | DB21, DB21f           |
 | DB22              | DB22b, DB22fb                             | DB22, DB22f          |
 | DB23              | DB23b, DB23fb, DB23sh                     | DB23, DB23f          |
