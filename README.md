@@ -46,29 +46,29 @@ The plan is to add STF profiles for all DBTracks variants.
 
 | DBTracks package  | Variants to do                                   | Variants done |
 |-------------------|--------------------------------------------------|---------------|
-| DB1               | DB1fb, DB1sh                     | DB1, DB1b, DB1f, DB1s, DB1z        |
-| DB10              | DB10fb                                    | DB10, DB10f          |
-| DB11              | DB11fb                                    | DB11, DB11f          |
-| DB2               | DB2br, DB2fb, DB2sh                        | DB2, DB2b, DB2f, DB2s, DB2z   |
-| DB20              | DB20fb                           | DB20, DB20b, DB20f, DB20z         |
-| DB21              | DB21fb                             | DB21, DB21b, DB21f           |
-| DB22              | DB22fb                             | DB22, DB22b, DB22f          |
-| DB23              | DB23fb, DB23sh                     | DB23, DB23b, DB23f          |
-| DB3               | DB3br, DB3fb, DB3sh                  | DB3, DB3b, DB3f           |
-| DB30              | DB30fb                             | DB30, DB30b, DB30f          |
-| DB4               | DB4fb                                | DB4, DB4b, DB4f           |
-| DB40              | DB40fb                             | DB40, DB40b, DB40f          |
-| DB5               | DB5fb                                | DB5, DB5b, DB5f           |
-| DB50              | DB50fb                             | DB50, DB50b, DB50f          |
-| DB51              | DB51fb                             | DB51, DB51b, DB51f          |
-| DB52              | DB52fb                             | DB52, DB52b, DB52f          |
-| DB501             | DB501fb                          | DB501, DB501b, DB501f         |
-| DB502             | DB502fb                          | DB502, DB502b, DB502f         |
-| DR2               | DR2fb                                | DR2, DR2b, DR2f           |
-| DR20              |                                             | DR20, DR20b, DR20f          |
+| DB1               | DB1sh                     | DB1, DB1b, DB1f, DB1fb, DB1s, DB1z        |
+| DB10              |                                     | DB10, DB10f, DB10fb          |
+| DB11              |                                     | DB11, DB11f, DB11fb          |
+| DB2               | DB2br, DB2sh                        | DB2, DB2b, DB2f, DB2fb, DB2s, DB2z   |
+| DB20              |                            | DB20, DB20b, DB20f, DB20fb, DB20z         |
+| DB21              |                              | DB21, DB21b, DB21f, DB21fb           |
+| DB22              |                              | DB22, DB22b, DB22f, DB22fb          |
+| DB23              | DB23sh                     | DB23, DB23b, DB23f, DB23fb          |
+| DB3               | DB3br, DB3sh                  | DB3, DB3b, DB3f, DB3fb           |
+| DB30              |                              | DB30, DB30b, DB30f, DB30fb          |
+| DB4               |                                 | DB4, DB4b, DB4f, DB4fb           |
+| DB40              |                              | DB40, DB40b, DB40f, DB40fb          |
+| DB5               |                                 | DB5, DB5b, DB5f, DB5fb           |
+| DB50              |                              | DB50, DB50b, DB50f, DB50fb          |
+| DB51              |                              | DB51, DB51b, DB51f, DB51fb          |
+| DB52              |                              | DB52, DB52b, DB52f, DB52fb          |
+| DB501             |                           | DB501, DB501b, DB501f, DB501fb         |
+| DB502             |                           | DB502, DB502b, DB502f, DB502fb         |
+| DR2               |                                 | DR2, DR2b, DR2f, DR2fb           |
+| DR20              |                                             | DR20, DR20b, DR20f, DR20fb          |
 | V4hs              | V4hs_DB1, V4hs_R2k, V4hs_RKL                     |               |
 
-Feel free to suggest more by creating an issue, or by submitting a pull request with more profiles.
+Feel free to suggest more by creating an issue if anything is missing.
 
 
 ## Known issues
