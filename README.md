@@ -1,7 +1,7 @@
 
 # DBTracks STF Profiles
 
-These STF track profiles mimic DBTracks as best as possible to enable use of the super-elevation feature in Open Rails together with Norbert Rieger's DBTracks.
+These STF track profiles mimic DBTracks as best as possible to enable use of the super-elevation feature in Open Rails with Norbert Rieger's DBTracks.
 
 If you wish to replace dynamic tracks within a route and/or generate new track shapes, you should instead use the DPP profiles provided by Norbert with Dynatrax.
 
@@ -24,7 +24,7 @@ The stable version of Open Rails 1.5.1 only supports using one track profile for
 Use of multiple profiles is supported from testing version _T1.5.1-1390_ onwards (see below).
 
 
-### Open Rails _T1.5.1-1390_ onwards (testing version):
+### Open Rails _T1.5.1-1390 onwards_ (testing version):
 1. Download all the .stf files from [./TrackProfiles](./TrackProfiles) as a zip file.
 
 2. Place all of them into the `<route folder>/TrackProfiles` folder.
