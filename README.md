@@ -14,9 +14,11 @@ If you ever need these profiles for super-elevation the textures required most l
 
 
 ### Open Rails testing version _T1.5.1-1390_ onwards:
-1. Download all the .stf files from [./TrackProfiles](./TrackProfiles) as a zip file.
+1. Download and extract the [latest release](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases).
 
-2. Place all of them into the `<route folder>/TrackProfiles` folder.
+2. Copy all the track profiles from either the `TrackProfiles` or `TrackProfiles_h` folder (see [Usage](#usage) for which one to pick).
+
+3. Place all of them into the `<route folder>/TrackProfiles` folder.
 
 Open Rails will now select track profile automatically based on the type of DBTracks sections used in the route.
 
@@ -26,7 +28,7 @@ The profiles are already configured to match DBTracks variant based on the `DB*_
 
 TODO [./TrackProfiles](./TrackProfiles) vs [./TrackProfiles_h](./TrackProfiles_h)
 
-### Dynatrax generated track sections:
+### Fixing Dynatrax generated track sections:
 TODO about Dynatrax generated dyntrack replacements
 TODO workaround, with link to example script
 TODO renaming dynatrax shapes or adding Dynatrax to Included shapes
@@ -71,12 +73,12 @@ Feel free to suggest more by creating an issue if anything is missing.
 - There is no good way to place objects at an interval along the generated track with STF profiles. For example the following is missing from super-elevated track:
 	- Connectors between the two overhead wires in f-variants.
 	- Supports for the 3rd rail in sh-variants.
-- Dynatrax generated track sections are not super-elevated properly as of testing version T1.5.1-1390. There is a dirty workaround for this that involves modifying the global tsection.dat. This is discussed in the [Usage section](#dynatrax-generated-track-sections).
+- Dynatrax generated track sections are not super-elevated properly as of testing version T1.5.1-1390. There is a dirty workaround for this that involves modifying the global tsection.dat. This is discussed in the [Usage section](#fixing-dynatrax-generated-track-sections).
 
 
 ## License
 
-These STF track profiles were configured by Peter Grønbæk Andersen based on Norbert Rieger's original work on DBTracks.
+These track profiles were configured by Peter Grønbæk Andersen based on Norbert Rieger's original work on DBTracks.
 
 The profiles are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
