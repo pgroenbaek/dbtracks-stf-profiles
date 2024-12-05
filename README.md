@@ -1,35 +1,25 @@
 
 # DBTracks STF Profiles
 
-These STF track profiles mimic DBTracks as best as possible to enable use of the super-elevation feature in Open Rails with Norbert Rieger's DBTracks.
+These track profiles mimic DBTracks as best as possible to allow use of the super-elevation feature in Open Rails with Norbert Rieger's DBTracks.
 
 If you wish to replace dynamic tracks within a route and/or generate new track shapes, you should instead use the DPP profiles provided by Norbert with Dynatrax.
 
 
 ## Installation
-This repository only contains the STF track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
+This repository only contains the track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
-If you ever need these profiles for super-elevation you most likely have the textures in the route already.
+If you ever need these profiles for super-elevation the textures required most likely are in your route already.
 
-
-### Open Rails _1.5.1_ (stable version):
-1. Download the .stf file for the track profile you want from [./TrackProfiles](./TrackProfiles).
-
-2. Place the profile into the `<route folder>/TrackProfiles` folder and rename it to `TrProfile.stf`.
-
-Open Rails will now generate super-elevated track in curves based on this profile. If you have super-elevation enabled in the settings 
-
-The stable version of Open Rails 1.5.1 only supports using one track profile for super-elevation.
-
-Use of multiple profiles is supported from testing version _T1.5.1-1390_ onwards (see below).
+**NOTE:** Use of multiple profiles is only supported from testing version _T1.5.1-1390_ onwards.
 
 
-### Open Rails _T1.5.1-1390 onwards_ (testing version):
+### Open Rails _T1.5.1-1390_ onwards (testing version):
 1. Download all the .stf files from [./TrackProfiles](./TrackProfiles) as a zip file.
 
 2. Place all of them into the `<route folder>/TrackProfiles` folder.
 
-Open Rails will now select track profile automatically based on the DBTracks types used in the route.
+Open Rails will now select track profile automatically based on the type of DBTracks used in the route.
 
 TODO about Dynatrax generated dyntrack replacements
 
@@ -40,21 +30,19 @@ A more detailed guide on how to use these track profiles is available in the [Op
 More information about the technical aspects of STF track profiles in Open Rails is available in [this document](https://static.openrails.org/files/OpenRails-Testing-How%20to%20Provide%20Track%20Profiles%20for%20Open%20Rails%20Dynamic%20Track.pdf).
 
 
-## Roadmap
-
-The plan is to add STF profiles for all DBTracks variants.
+## Track Variants
 
 | DBTracks package  | Variants to do                                   | Variants done |
 |-------------------|--------------------------------------------------|---------------|
-| DB1               | DB1sh                     | DB1, DB1b, DB1f, DB1fb, DB1s, DB1z        |
+| DB1               | DB1sh, DB1sh_lft                     | DB1, DB1b, DB1f, DB1fb, DB1s, DB1z        |
 | DB10              |                                     | DB10, DB10f, DB10fb          |
 | DB11              |                                     | DB11, DB11f, DB11fb          |
-| DB2               | DB2fbr, DB2br, DB2sh                        | DB2, DB2b, DB2f, DB2fb, DB2s, DB2z   |
+| DB2               | DB2fbr, DB2br, DB2sh, DB2sh_lft                        | DB2, DB2b, DB2f, DB2fb, DB2s, DB2z   |
 | DB20              |                            | DB20, DB20b, DB20f, DB20fb, DB20z         |
 | DB21              |                              | DB21, DB21b, DB21f, DB21fb           |
 | DB22              |                              | DB22, DB22b, DB22f, DB22fb          |
-| DB23              | DB23sh                     | DB23, DB23b, DB23f, DB23fb          |
-| DB3               | DB3fbr, DB3br, DB3sh                  | DB3, DB3b, DB3f, DB3fb           |
+| DB23              | DB23sh, DB23sh_lft                     | DB23, DB23b, DB23f, DB23fb          |
+| DB3               | DB3fbr, DB3br, DB3sh, DB3sh_lft                  | DB3, DB3b, DB3f, DB3fb           |
 | DB30              |                              | DB30, DB30b, DB30f, DB30fb          |
 | DB4               |                                 | DB4, DB4b, DB4f, DB4fb           |
 | DB40              |                              | DB40, DB40b, DB40f, DB40fb          |
