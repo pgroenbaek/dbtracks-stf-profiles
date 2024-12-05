@@ -16,7 +16,7 @@ If you ever need these profiles for super-elevation the textures required most l
 ### Open Rails testing version _T1.5.1-1390_ onwards:
 1. Download and extract the [latest release](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases).
 
-2. Copy all the track profiles from either the `TrackProfiles` or `TrackProfiles_h` folder (see [Usage](#usage) for which one to pick).
+2. Copy all the track profiles from either the `TrackProfiles` or `TrackProfiles_h` folder. The latter adds extra embankment similar to the h variants in USTracks and often looks better when super-elevated. See the [Usage section](#version-with-extra-embankment) for an example.
 
 3. Place all of them into the `<route folder>/TrackProfiles` folder.
 
@@ -24,7 +24,11 @@ Open Rails will now select track profile automatically based on the type of DBTr
 
 
 ## Usage
-The profiles are already configured to match DBTracks variant based on the `DB*_` prefixes in shapefile names.
+The profiles are already configured to match DBTracks variant based on the `DB*_` prefix in the name of shape files.
+
+If you have track shapes named anything else, additional match conditions can be added using the `IncludeShapes` parameter within each track profile file. You can also add and use the `ExcludedShapes` parameter if necessary.
+
+### Version with extra embankment.
 
 TODO [./TrackProfiles](./TrackProfiles) vs [./TrackProfiles_h](./TrackProfiles_h)
 
@@ -75,6 +79,7 @@ Feel free to suggest more by creating an issue if anything is missing.
 	- Supports for the 3rd rail in sh-variants.
 - Dynatrax generated track sections are not super-elevated properly as of testing version T1.5.1-1390. There is a dirty workaround for this that involves modifying the global tsection.dat. This is discussed in the [Usage section](#fixing-dynatrax-generated-track-sections).
 
+Please create an issue or pull request if you find more.
 
 ## License
 
