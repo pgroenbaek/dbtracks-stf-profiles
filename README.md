@@ -16,7 +16,7 @@ If you ever need these profiles for super-elevation the textures required most l
 ### Open Rails testing version _T1.5.1-1390_ onwards:
 1. Download and extract the [latest release](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases).
 
-2. Copy all the track profiles from either the `TrackProfiles` or `TrackProfiles_h` folder. The latter adds extra embankment similar to the h variants in USTracks and often looks better when super-elevated. See the [Usage section](#version-with-extra-embankment) for an example.
+2. Copy all the track profiles from either the `TrackProfiles` or `TrackProfiles_h` folder. The latter adds extra trackbed similar to the h variants in USTracks and often looks better when super-elevated. See the [Usage section](#version-with-extra-embankment) for an example.
 
 3. Place all of them into the `<route folder>/TrackProfiles` folder.
 
