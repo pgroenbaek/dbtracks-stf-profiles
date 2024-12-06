@@ -31,6 +31,8 @@ If you have track shapes named anything else, additional match conditions can be
 ### About Dynatrax generated track sections:
 Dynatrax generated track sections are not properly replaced with super-elevated track as of testing version T1.5.1-1390.
 This is because Dynatrax replaces dynamic track with normal track objects while still using track sections defined in the local tsection.dat.
+
+
 The super-elevation feature does not fetch curve from the local tsection.dat, and will instead look for those track sections in the global tsection.dat.
 
 
@@ -78,7 +80,7 @@ If anything is missing, feel free to suggest more by creating an issue.
 - There is no good way to place objects at an interval along the generated track with STF profiles. For example the following is missing from super-elevated track:
 	- Connectors between the two overhead wires in f-variants.
 	- Supports for the 3rd rail in sh-variants.
-- Dynatrax generated track sections are not super-elevated properly as of testing version T1.5.1-1390. There is a dirty workaround for this that involves modifying the global tsection.dat. This is discussed in the [Usage section](#fixing-dynatrax-generated-track-sections).
+- Dynatrax generated track sections are not super-elevated properly as of testing version T1.5.1-1390. There is a workaround that involves modifying the global tsection.dat. This is discussed in the [Usage section](#about-dynatrax-generated-track-sections).
 
 Create an issue or pull request if you find more.
 
