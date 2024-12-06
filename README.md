@@ -36,7 +36,7 @@ This is because Dynatrax replaces dynamic track with normal track objects while 
 The super-elevation feature does not fetch curve from the local tsection.dat, and will instead look for those track sections in the global tsection.dat.
 
 
-There is a workaround for this that involves adding all dynatrax sections into the global tsection.dat.
+There is a workaround for this that involves also defining all dynatrax sections in the global tsection.dat.
 For inspiration on how to do this have a look at the following [python script](https://github.com/pgroenbaek/openrails-route-dk24/blob/master/UTILS/inject_global_tsection.py).
 
 
