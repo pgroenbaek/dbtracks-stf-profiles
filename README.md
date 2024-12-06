@@ -8,7 +8,7 @@ If you wish to replace dynamic tracks within a route and/or generate new track s
 ## Installation
 This repository only contains the track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
 
-If you ever need these profiles for super-elevation the textures required most likely are in your route already.
+If you ever need these profiles for super-elevation the textures most likely are in the route already.
 
 **NOTE:** Use of multiple profiles is only supported from testing version _T1.5.1-1390_ onwards.
 
@@ -16,26 +16,27 @@ If you ever need these profiles for super-elevation the textures required most l
 ### Open Rails testing version _T1.5.1-1390_ onwards:
 1. Download and extract the [latest release](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases).
 
-2. Copy all the track profiles from either the `TrackProfiles` or `TrackProfiles_h` folder. The latter adds extra trackbed similar to the h variants in USTracks and often looks better when super-elevated. See the [Usage section](#version-with-extra-embankment) for an example.
+2. Copy all the track profiles from the `TrackProfiles` or `TrackProfiles_h` folder.
 
 3. Place all of them into the `<route folder>/TrackProfiles` folder.
 
-Open Rails will now select track profile automatically based on the type of DBTracks sections used in the route.
+Open Rails will now automatically generate super-elevated track based on the type of DBTracks sections used in the route.
 
 
 ## Usage
-The profiles are already configured to match DBTracks variant based on the `DB*_` prefix in the name of shape files.
+The profiles are already configured to match DBTracks variant based on the `DB` and `V4hs` prefixes of the shape file names.
 
-If you have track shapes named anything else, additional match conditions can be added using the `IncludeShapes` parameter within each track profile file. You can also add and use the `ExcludedShapes` parameter if necessary.
+If you have track shapes named anything else, additional match conditions can be added using the `IncludeShapes` parameter within each track profile file. You can also use the `ExcludedShapes` parameter if necessary.
 
-### Version with extra embankment.
+### About Dynatrax generated track sections:
+Dynatrax generated track sections are not properly replaced with super-elevated track as of testing version T1.5.1-1390.
+This is because Dynatrax replaces dynamic track with normal track objects while still using track sections defined in the local tsection.dat.
+The super-elevation feature does not fetch curve from the local tsection.dat, and will instead look for those track sections in the global tsection.dat.
 
-TODO [./TrackProfiles](./TrackProfiles) vs [./TrackProfiles_h](./TrackProfiles_h)
 
-### Fixing Dynatrax generated track sections:
-TODO about Dynatrax generated dyntrack replacements
-TODO workaround, with link to example script
-TODO renaming dynatrax shapes or adding Dynatrax to Included shapes
+There is a workaround for this that involves adding all dynatrax sections into the global tsection.dat.
+For inspiration on how to do this have a look at the following [python script](https://github.com/pgroenbaek/openrails-route-dk24/blob/master/UTILS/inject_global_tsection.py).
+
 
 ### Further documentation:
 More details on how to use these track profiles is available in the [Open Rails documentation](https://open-rails.readthedocs.io/en/latest/options.html#superelevation). 
@@ -79,7 +80,8 @@ If anything is missing, feel free to suggest more by creating an issue.
 	- Supports for the 3rd rail in sh-variants.
 - Dynatrax generated track sections are not super-elevated properly as of testing version T1.5.1-1390. There is a dirty workaround for this that involves modifying the global tsection.dat. This is discussed in the [Usage section](#fixing-dynatrax-generated-track-sections).
 
-Please create an issue or pull request if you find more.
+Create an issue or pull request if you find more.
+
 
 ## License
 
