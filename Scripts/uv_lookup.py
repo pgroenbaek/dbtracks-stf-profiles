@@ -87,18 +87,11 @@ if __name__ == "__main__":
     while True:
         print("Enter X and Y value to search with one space in between:")
         point_xy = input()
-        point_x = point_xy.split(" ")[0]
-        point_y = point_xy.split(" ")[1]
-        point_x = None if point_x == '' else float(point_x)
-        point_y = None if point_y == '' else float(point_y)
+        point_x = float(point_xy.split(" ")[0])
+        point_y = float(point_xy.split(" ")[1])
         print("\n\n")
         
-        if point_x is None:
-            distances = [math.sqrt(((x - point_x) ** 2)) for (x, y, z) in points]
-        elif point_y is None:
-            distances = [math.sqrt(((y - point_y) ** 2)) for (x, y, z) in points]
-        else:
-            distances = [math.sqrt(((x - point_x) ** 2) + ((y - point_y) ** 2)) for (x, y, z) in points]
+        distances = [math.sqrt(((x - point_x) ** 2) + ((y - point_y) ** 2)) for (x, y, z) in points]
         
         indexed_list = list(enumerate(distances))
         indexed_list = [x for x in indexed_list if points[x[0]][2] <= max_point_z]
