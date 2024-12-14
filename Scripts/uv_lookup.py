@@ -70,9 +70,9 @@ def parse_s_file(s_text):
 
 
 if __name__ == "__main__":
-    s_filepath = "D:\\Games\\Open Rails\\Tools\\sfm\\Shapes\\V4hs2t_R2k_06000r00_1d_WWE_MB1.s"
+    s_filepath = "D:\\Games\\Open Rails\\Tools\\sfm\\Shapes\\DB2br_a1t10mStrt.s"
     max_point_z = 0.0
-    lod_distance = 350
+    lod_distance = 500
     
     s_text = read_s_file(s_filepath)
     

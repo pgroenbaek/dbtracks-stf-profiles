@@ -51,7 +51,7 @@ More information about the technical aspects of STF track profiles in Open Rails
 | DB1               | DB1sh, DB1sh_lft                     | DB1, DB1b, DB1f, DB1fb, DB1s, DB1z        |
 | DB10              |                                     | DB10, DB10f, DB10fb          |
 | DB11              |                                     | DB11, DB11f, DB11fb          |
-| DB2               | DB2fbr, DB2br, DB2sh, DB2sh_lft                        | DB2, DB2b, DB2f, DB2fb, DB2s, DB2z   |
+| DB2               | DB2sh, DB2sh_lft                        | DB2, DB2b, DB2br, DB2f, DB2fb, DB2fbr, DB2s, DB2z   |
 | DB20              |                            | DB20, DB20b, DB20f, DB20fb, DB20z         |
 | DB21              |                              | DB21, DB21b, DB21f, DB21fb           |
 | DB22              |                              | DB22, DB22b, DB22f, DB22fb          |
