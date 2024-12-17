@@ -16,7 +16,7 @@ If you ever need these profiles for super-elevation the textures most likely are
 ### Open Rails testing version _T1.5.1-1390_ onwards:
 1. Download and extract the [latest release](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases).
 
-2. Copy all the track profiles from either the `TrackProfiles` folder or the `TrackProfiles_h` folder. These are mutually exclusive so only pick one. See the [Usage section](#choosing-between-trackprofiles-and-trackprofiles_h) for which to choose.
+2. Copy all the track profiles from either the `TrackProfiles` folder or the `TrackProfiles_h` folder. These are mutually exclusive so only pick one. See the [Usage section](#choosing-between-trackprofiles-and-trackprofiles_h) for which to choose. If in doubt pick `TrackProfiles_h`.
 
 3. Place all of them into the `<route folder>/TrackProfiles` folder.
 
