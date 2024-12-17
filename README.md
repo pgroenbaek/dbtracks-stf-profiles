@@ -34,9 +34,11 @@ There are two versions of the DBTracks profiles. The default version named `Trac
 
 The `Trackprofiles_h` version generally looks better with super-elevated track so you might want to use that.
 
-![Trackprofile versions](./TrackprofileVersions.png)
+The image below shows the difference between the two versions. One side of the default version sometimes floats in the air while `Trackprofiles_h` never does.
 
-The above image shows the difference between the two versions. One side of the default version sometimes floats in the air while `Trackprofiles_h` never does.
+The two versions are mutually exclusive so only pick one.
+
+![Trackprofile versions](./TrackprofileVersions.png)
 
 
 ### About Dynatrax generated track sections:
