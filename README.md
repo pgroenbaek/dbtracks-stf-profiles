@@ -16,7 +16,7 @@ If you ever need these profiles for super-elevation the textures most likely are
 ### Open Rails testing version _T1.5.1-1390_ onwards:
 1. Download and extract the [latest release](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases).
 
-2. Copy all the track profiles from the `TrackProfiles` folder.
+2. Copy all the track profiles from either the `TrackProfiles` folder or the `TrackProfiles_h` folder. These are mutually exclusive so only pick one. See the [Usage section](#choosing-between-trackprofiles-and-trackprofiles_h) for which to choose.
 
 3. Place all of them into the `<route folder>/TrackProfiles` folder.
 
@@ -28,12 +28,23 @@ The profiles are already configured to match DBTracks variant based on the `DB` 
 
 If you have track shapes named anything else, additional match conditions can be added using the `IncludeShapes` parameter within each track profile file. You can also use the `ExcludedShapes` parameter if necessary.
 
+
+### Choosing between Trackprofiles and Trackprofiles_h:
+There are two versions of the DBTracks profiles. The default version named `Trackprofiles` and a version with extra embankments similar to the h variants of USTracks named `Trackprofiles_h`.
+
+The `Trackprofiles_h` version generally looks better with super-elevated track so you might want to use that.
+
+![Trackprofile versions](./TrackprofileVersions.png)
+
+The above image shows the difference between the two versions. One side of the default version sometimes floats in the air while `Trackprofiles_h` never does.
+
+
 ### About Dynatrax generated track sections:
 Per default dynatrax generated tracks sections are not super-elevated properly unless additional TrackSection and TrackShape entries are added to the tsection.dat. The best way to do this is using a [route-specific tsection.dat extension](https://open-rails.readthedocs.io/en/latest/features-route.html#route-specific-tracksections-and-trackshapes).
 
 This can be very time-consuming to create by hand if there are many Dynatrax generated track sections in the route.
 
-A fast way to create the extra tsection.dat for your route is using this [python script](https://github.com/pgroenbaek/openrails-route-dk24/blob/master/UTILS/generate_custom_route_tsection.py). It will look through the world files and your local tsection.dat, and then create the extension tsection.dat with all the extra entries needed. The script needs to be configured with the correct paths but otherwise it is capable of creating the file for any route.
+A fast way to create the extra tsection.dat for your route is using this [python script](https://github.com/pgroenbaek/dbtracks-stf-profiles/blob/master/Scripts/generate_route_tsection.py). It will look through the world files and your local tsection.dat, and then create the extension tsection.dat with all the extra entries needed. The script needs to be configured with the correct paths but otherwise it is capable of creating the file for any route.
 
 To use a specific track variant for a Dynatrax generated track section you can rename the shape file name to include the DBTracks prefix. For example from `Dynatrax-40892.s` to `DB2f_Dynatrax-40892.s`.
 
