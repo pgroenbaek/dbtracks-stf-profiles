@@ -38,8 +38,6 @@ The `Trackprofiles_h` version generally looks better with super-elevated track s
 
 The image below shows the difference between the two versions. One side of the default version sometimes floats in the air while `Trackprofiles_h` never does.
 
-The two versions are mutually exclusive so only pick one.
-
 ![Trackprofile versions](./TrackprofileVersions.png)
 
 
@@ -63,15 +61,15 @@ More information about the technical aspects of STF track profiles in Open Rails
 
 | DBTracks package  | Variants to do                                   | Variants done |
 |-------------------|--------------------------------------------------|---------------|
-| DB1               | DB1sh, DB1sh_lft                     | DB1, DB1b, DB1f, DB1fb, DB1s, DB1z        |
+| DB1               |                      | DB1, DB1b, DB1f, DB1fb, DB1s, DB1sh, DB1sh_lft, DB1z        |
 | DB10              |                                     | DB10, DB10f, DB10fb          |
 | DB11              |                                     | DB11, DB11f, DB11fb          |
-| DB2               | DB2sh, DB2sh_lft                        | DB2, DB2b, DB2br, DB2f, DB2fb, DB2fbr, DB2s, DB2z   |
+| DB2               |                         | DB2, DB2b, DB2br, DB2f, DB2fb, DB2fbr, DB2s, DB2sh, DB2sh_lft, DB2z   |
 | DB20              |                            | DB20, DB20b, DB20f, DB20fb, DB20z         |
 | DB21              |                              | DB21, DB21b, DB21f, DB21fb           |
 | DB22              |                              | DB22, DB22b, DB22f, DB22fb          |
-| DB23              | DB23sh, DB23sh_lft                     | DB23, DB23b, DB23f, DB23fb          |
-| DB3               | DB3sh, DB3sh_lft                  | DB3, DB3b, DB3br, DB3f, DB3fb, DB3fbr           |
+| DB23              |                      | DB23, DB23b, DB23f, DB23fb, DB23sh, DB23sh_lft          |
+| DB3               |                   | DB3, DB3b, DB3br, DB3f, DB3fb, DB3fbr, DB3sh, DB3sh_lft           |
 | DB30              |                              | DB30, DB30b, DB30f, DB30fb          |
 | DB4               |                                 | DB4, DB4b, DB4f, DB4fb           |
 | DB40              |                              | DB40, DB40b, DB40f, DB40fb          |
@@ -94,6 +92,7 @@ If anything is missing, feel free to suggest more by creating an issue.
 	- Connectors between the two overhead wires in f-variants.
 	- Supports for the 3rd rail in sh-variants.
 - Dynatrax generated track sections are not super-elevated properly unless you add additional TrackSection and TrackShape entries to tsection.dat. How to do this is discussed in the [Usage section](#about-dynatrax-generated-track-sections).
+- Textures are not yet properly mapped to the 3rd rail in sh variants, this will be fixed eventually. If you want to have a go at doing the texture mapping properly, feel free to do so and submit a pull request with it.
 
 Create an issue or pull request if you find more.
 
