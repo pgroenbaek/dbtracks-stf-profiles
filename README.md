@@ -1,6 +1,6 @@
 
 # DBTracks STF Profiles
-These track profiles mimic DBTracks as best as possible to allow use of the super-elevation feature in Open Rails with Norbert Rieger's DBTracks.
+These track profiles allow use of the super-elevation feature in Open Rails together with Norbert Rieger's DBTracks. They mimic the original DBTracks shapes as best as possible.
 
 If you wish to replace dynamic tracks within a route and/or generate new track shapes, you should instead use the DPP profiles provided by Norbert with Dynatrax.
 
