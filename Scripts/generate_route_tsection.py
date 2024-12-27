@@ -11,7 +11,7 @@ You can re-run the script each time more Dynatrax sections or custom sections/sh
 
 Python3 is required to run the script. It will only work for Open Rails as extending the global tsection.dat like this is not available in MSTS.
 
-Make sure to replace the "route_path" variable with the directory your route is in on line 200.
+Make sure to replace the "route_path" variable on line 207 with the directory your route is in.
 
 Explanation of what it does:
 - The script reads the local tsection.dat and looks for .w files in the world folder.
