@@ -24,10 +24,11 @@ Explanation of what it does:
 import os
 import fnmatch
 
+
 def read_lines(file, encoding='utf-16'):
   with open(file, 'r', encoding=encoding) as f:
     return f.read().split("\n")
-      
+
 
 def read_local_tsection(local_tsection_file):
   sections = []
@@ -60,14 +61,17 @@ def read_local_tsection(local_tsection_file):
 
   return sections, paths
 
+
 def ensure_directory_exists(directory_path):
   if not os.path.exists(directory_path): 
       os.makedirs(directory_path)
+
 
 def ensure_file_exists(path):
   if not os.path.exists(path):
     with open(path, 'w') as f:
         pass
+
 
 def find_world_files(search_directory):
   world_files = []
@@ -139,10 +143,17 @@ def generate_dynatrax_entries(world_files, dyntrack_sections, dyntrack_paths):
   dynatrax_trackobjs = find_dynatrax_trackobjs(world_files)
 
   for shape_name, section_idx in dynatrax_trackobjs:
-    dyntrack_section = next((t for t in dyntrack_sections if t[0] == section_idx), None)
     dyntrack_path = next((t for t in dyntrack_paths if t[0] == section_idx), None)
+    
+    if dyntrack_path is None:
+      raise Exception("Could not find TrackPath with SectionIdx %d for shape '%s'" % (section_idx, shape_name))
+    
     for path_section_idx in dyntrack_path[1]:
       dyntrack_path_section = next((t for t in dyntrack_sections if t[0] == path_section_idx), None)
+      
+      if dyntrack_path_section is None:
+        raise Exception("Could not find TrackSection %d for TrackPath with SectionIdx %d for shape '%s'" % (path_section_idx, section_idx, shape_name))
+    	
       section_type = dyntrack_path_section[1]
       length = dyntrack_path_section[2]
       radius = dyntrack_path_section[3]
@@ -150,10 +161,6 @@ def generate_dynatrax_entries(world_files, dyntrack_sections, dyntrack_paths):
       if path_section_idx not in section_idxs_created:
         track_sections.extend(generate_tracksection_entry(path_section_idx, section_type, length, radius))
         section_idxs_created.append(path_section_idx)
-
-    if section_idx not in section_idxs_created:
-      track_sections.extend(generate_tracksection_entry(section_idx, section_type, length, radius))
-      section_idxs_created.append(section_idx)
 
     if section_idx not in shape_idxs_created:
       track_shapes.extend(generate_trackshape_entry(section_idx, shape_name, dyntrack_path[1]))
