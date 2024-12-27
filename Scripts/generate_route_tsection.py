@@ -152,7 +152,7 @@ def generate_dynatrax_entries(world_files, dyntrack_sections, dyntrack_paths):
       dyntrack_path_section = next((t for t in dyntrack_sections if t[0] == path_section_idx), None)
       
       if dyntrack_path_section is None:
-        raise Exception("Could not find TrackSection %d for TrackPath with SectionIdx %d for shape '%s'" % (path_section_idx, section_idx, shape_name))
+        raise Exception("Could not find SectionCurve %d in TrackPath with SectionIdx %d for shape '%s'" % (path_section_idx, section_idx, shape_name))
     	
       section_type = dyntrack_path_section[1]
       length = dyntrack_path_section[2]
