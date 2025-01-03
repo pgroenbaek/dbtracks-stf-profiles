@@ -67,7 +67,7 @@ More information about the technical aspects of STF track profiles in Open Rails
 | DB2               | DB2w, DB2fw, DB2zw                        | DB2, DB2b, DB2br, DB2f, DB2fb, DB2fbr, DB2s, DB2sh, DB2sh_lft, DB2z   |
 | DB20              | DB20w, DB20fw                           | DB20, DB20b, DB20f, DB20fb, DB20z         |
 | DB21              |                              | DB21, DB21b, DB21f, DB21fb           |
-| DB22              |                              | DB22, DB22b, DB22f, DB22fb          |
+| DB22              | DB22w, DB22fw                             | DB22, DB22b, DB22f, DB22fb          |
 | DB23              |                      | DB23, DB23b, DB23f, DB23fb, DB23sh, DB23sh_lft          |
 | DB3               |                   | DB3, DB3b, DB3br, DB3f, DB3fb, DB3fbr, DB3sh, DB3sh_lft           |
 | DB30              |                              | DB30, DB30b, DB30f, DB30fb          |
