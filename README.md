@@ -61,11 +61,11 @@ More information about the technical aspects of STF track profiles in Open Rails
 
 | DBTracks package  | Variants to do                                   | Variants done |
 |-------------------|--------------------------------------------------|---------------|
-| DB1               |                      | DB1, DB1b, DB1f, DB1fb, DB1s, DB1sh, DB1sh_lft, DB1z        |
-| DB10              |                                     | DB10, DB10f, DB10fb          |
+| DB1               | DB1w, DB1fw, DB1zw                     | DB1, DB1b, DB1f, DB1fb, DB1s, DB1sh, DB1sh_lft, DB1z        |
+| DB10              | DB10w, DB10fw                                    | DB10, DB10f, DB10fb          |
 | DB11              |                                     | DB11, DB11f, DB11fb          |
-| DB2               |                         | DB2, DB2b, DB2br, DB2f, DB2fb, DB2fbr, DB2s, DB2sh, DB2sh_lft, DB2z   |
-| DB20              |                            | DB20, DB20b, DB20f, DB20fb, DB20z         |
+| DB2               | DB2w, DB2fw, DB2zw                        | DB2, DB2b, DB2br, DB2f, DB2fb, DB2fbr, DB2s, DB2sh, DB2sh_lft, DB2z   |
+| DB20              | DB20w, DB20fw                           | DB20, DB20b, DB20f, DB20fb, DB20z         |
 | DB21              |                              | DB21, DB21b, DB21f, DB21fb           |
 | DB22              |                              | DB22, DB22b, DB22f, DB22fb          |
 | DB23              |                      | DB23, DB23b, DB23f, DB23fb, DB23sh, DB23sh_lft          |
@@ -81,7 +81,7 @@ More information about the technical aspects of STF track profiles in Open Rails
 | DB502             |                           | DB502, DB502b, DB502f, DB502fb         |
 | DR2               |                                 | DR2, DR2b, DR2f, DR2fb           |
 | DR20              |                                             | DR20, DR20b, DR20f, DR20fb          |
-| V4hs              |                      | V4hs_DB1, V4hs_R2k, V4hs_RKL              |
+| V4hs              | V4hs_NP1, V4hs_NP2                     | V4hs_DB1, V4hs_R2k, V4hs_RKL              |
 
 If anything is missing, feel free to suggest more by creating an issue.
 
