@@ -50,7 +50,7 @@ A fast way to create the extra tsection.dat for your route is using this [python
 
 To use a specific track variant for a Dynatrax generated track section you can rename the shape file name to include the DBTracks prefix. For example from `Dynatrax-40892.s` to `DB2f_Dynatrax-40892.s`.
 
-You can also make all Dynatrax track shapes use a profile by default by adding `Dynatrax-*` to the `IncludeShapes` parameter within one of the profiles. For example from `IncludedShapes ( "DB2f_*" )` to `IncludedShapes ( "DB2f_*, Dynatrax-*" )`.
+You can also make all Dynatrax track shapes use a profile by default by adding `Dynatrax-*` to the `IncludeShapes` parameter within one of the profiles. For example `IncludedShapes ( "DB2f_*, Dynatrax-*" )`.
 
 If you want some of the Dynatrax shapes to use a different profile than the default one, you can still rename those Dynatrax shapes with the DBTracks prefixes like discussed above.
 
