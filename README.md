@@ -84,7 +84,7 @@ More information about the technical aspects of STF track profiles in Open Rails
 | DB502             |                           | DB502, DB502b, DB502f, DB502fb         |
 | DR2               |                                 | DR2, DR2b, DR2f, DR2fb           |
 | DR20              |                                             | DR20, DR20b, DR20f, DR20fb          |
-| V4hs              | V4hs_NP1, V4hs_NP2                     | V4hs_DB1, V4hs_R2k, V4hs_RKL              |
+| V4hs              |                      | V4hs_DB1, V4hs_NP1, V4hs_NP2, V4hs_R2k, V4hs_RKL              |
 
 If anything is missing, feel free to suggest more by creating an issue.
 
