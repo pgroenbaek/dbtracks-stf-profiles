@@ -28,7 +28,7 @@ Open Rails will now automatically generate super-elevated track based on the typ
 ## Usage
 The profiles are already configured to match DBTracks variant based on the `DB` and `V4hs` prefixes of the shape file names.
 
-If you have track shapes named anything else, additional match conditions can be added using the `IncludeShapes` parameter within each track profile file. You can also use the `ExcludedShapes` parameter if necessary.
+If you have track shapes named anything else, additional match conditions can be added using the `IncludedShapes` parameter within each track profile file. You can also use the `ExcludedShapes` parameter if necessary.
 
 
 ### Choosing between Trackprofiles and Trackprofiles_h:
@@ -42,17 +42,10 @@ The image below shows the difference between the two versions. One side of the d
 
 
 ### About Dynatrax generated track sections:
-Per default dynatrax generated tracks sections are not super-elevated properly unless additional TrackSection and TrackShape entries are added to the tsection.dat. The best way to do this is using a [route-specific tsection.dat extension](https://open-rails.readthedocs.io/en/latest/features-route.html#route-specific-tracksections-and-trackshapes).
+You can make all Dynatrax track shapes use a profile by default by adding `Dynatrax-*` to the `IncludedShapes` parameter within one of the profiles. For example `IncludedShapes ( "DB2f_*, Dynatrax-*" )`.
 
-This can be very time-consuming to create by hand if there are many Dynatrax generated track sections in the route.
+If there are Dynatrax track shapes that you want to other track variants for, you can rename the shape file names to include the DBTracks prefix. For example from `Dynatrax-40892.s` to `DB2f_Dynatrax-40892.s`.
 
-A fast way to create the extra tsection.dat for your route is using this [python script](https://github.com/pgroenbaek/dbtracks-stf-profiles/blob/master/Scripts/generate_route_tsection.py). It will look through the world files and your local tsection.dat, and then create the extension tsection.dat with all the extra entries needed. The script needs to be configured with the correct paths but otherwise it is capable of creating the file for any route.
-
-To use a specific track variant for a Dynatrax generated track section you can rename the shape file name to include the DBTracks prefix. For example from `Dynatrax-40892.s` to `DB2f_Dynatrax-40892.s`.
-
-You can also make all Dynatrax track shapes use a profile by default by adding `Dynatrax-*` to the `IncludeShapes` parameter within one of the profiles. For example `IncludedShapes ( "DB2f_*, Dynatrax-*" )`.
-
-If you want some of the Dynatrax shapes to use a different profile than the default one, you can still rename those Dynatrax shapes with the DBTracks prefixes like discussed above.
 
 ### Further documentation:
 More details on how to use these track profiles is available in the [Open Rails documentation](https://open-rails.readthedocs.io/en/latest/options.html#superelevation). 
@@ -94,7 +87,6 @@ If anything is missing, feel free to suggest more by creating an issue.
 - There is no good way to place objects at an interval along the generated track with STF profiles. For example the following is missing from super-elevated track:
 	- Connectors between the two overhead wires in f-variants.
 	- Supports for the 3rd rail in sh-variants.
-- Dynatrax generated track sections are not super-elevated properly unless you add additional TrackSection and TrackShape entries to tsection.dat. How to do this is discussed in the [Usage section](#about-dynatrax-generated-track-sections).
 - Textures are not yet properly mapped to the 3rd rail in sh variants, this will be fixed eventually. If you want to have a go at doing the texture mapping properly, feel free to do so and submit a pull request with it.
 
 Create an issue or pull request if you find more.
