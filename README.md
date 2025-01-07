@@ -6,9 +6,7 @@ If you wish to replace dynamic tracks within a route and/or generate new track s
 
 
 ## Installation
-This repository only contains the track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/).
-
-If you ever need these profiles for super-elevation the textures most likely are in the route already.
+This repository only contains the track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/). You most likely have the textures already if you need these profiles for super-elevation.
 
 **NOTE:** Use of multiple profiles is only supported from testing version _T1.5.1-1390_ onwards.
 
@@ -31,20 +29,20 @@ The profiles are already configured to match DBTracks variant based on the `DB` 
 If you have track shapes named anything else, additional match conditions can be added using the `IncludedShapes` parameter within each track profile file. You can also use the `ExcludedShapes` parameter if necessary.
 
 
-### Choosing between Trackprofiles and Trackprofiles_h:
-There are two versions of the DBTracks profiles. The default version named `Trackprofiles` and a version with extra embankments similar to the h variants of USTracks named `Trackprofiles_h`.
-
-The `Trackprofiles_h` version generally looks better with super-elevated track so you might want to use that.
-
-The image below shows the difference between the two versions. One side of the default version sometimes floats in the air while `Trackprofiles_h` never does.
-
-![Trackprofile versions](./TrackprofileVersions.png)
-
-
 ### About Dynatrax generated track sections:
 You can make all Dynatrax track shapes use a profile by default by adding `Dynatrax-*` to the `IncludedShapes` parameter within one of the profiles. For example `IncludedShapes ( "DB2f_*, Dynatrax-*" )`.
 
-If there are Dynatrax track shapes that you want to other track variants for, you can rename the shape file names to include the DBTracks prefix. For example from `Dynatrax-40892.s` to `DB2f_Dynatrax-40892.s`.
+If there are Dynatrax track shapes that you want to use other track variants for, you can then rename the shape file names to include the DBTracks prefix. For example from `Dynatrax-40892.s` to `DB2z_Dynatrax-40892.s`.
+
+
+### Choosing between Trackprofiles and Trackprofiles_h:
+There are two versions of the DBTracks profiles. The default version named `Trackprofiles` and a version with extra embankments similar to the h variants of USTracks named `Trackprofiles_h`.
+
+The `Trackprofiles_h` version generally looks better with super-elevated track. So you might want to use that.
+
+The image below shows the difference between the two versions. One side of the default version often floats in the air while `Trackprofiles_h` almost never does.
+
+![Trackprofile versions](./TrackprofileVersions.png)
 
 
 ### Further documentation:
@@ -89,7 +87,7 @@ If anything is missing, feel free to suggest more by creating an issue.
 	- Supports for the 3rd rail in sh-variants.
 - Textures are not yet properly mapped to the 3rd rail in sh variants, this will be fixed eventually. If you want to have a go at doing the texture mapping properly, feel free to do so and submit a pull request with it.
 
-Create an issue or pull request if you find more.
+Feel free to create an issue if you find more.
 
 
 ## License
