@@ -8,7 +8,7 @@ If you wish to replace dynamic tracks within a route and/or generate new track s
 ## Installation
 This repository only contains the track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/). You most likely have the textures already if you need these profiles for super-elevation.
 
-**NOTE:** Use of multiple profiles is only supported from testing version _T1.5.1-1390_ or NYMG _rev. 160.2_ onwards.
+**NOTE:** Use of multiple profiles is only supported from testing version _T1.5.1-1390_ or _NYMG rev. 160.2_ onwards.
 
 
 ### Steps to install:
@@ -92,3 +92,12 @@ The profiles are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/li
 In memory of Norbert Rieger.
 
 All credit goes to Norbert as he is the author of the original DBTracks shapes.
+
+
+
+## Screenshots
+
+![./Screenshots/DB1s_1.png](./Screenshots/DB1s_1.png)
+![./Screenshots/DB1s_2.png](./Screenshots/DB1s_2.png)
+![./Screenshots/V4hs_R2k_1.png](./Screenshots/V4hs_R2k_1.png)
+![./Screenshots/V4hs_R2k_2.png](./Screenshots/V4hs_R2k_2.png)
