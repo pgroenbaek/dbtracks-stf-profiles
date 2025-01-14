@@ -14,9 +14,7 @@ This repository only contains the track profiles. The textures can be obtained f
 ### Open Rails testing version _T1.5.1-1390_ onwards:
 1. Download and extract the [latest release](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases).
 
-2. Copy all the track profiles from either the `TrackProfiles` folder or the `TrackProfiles_h` folder. These are mutually exclusive so only pick one.
-
-   See the [Usage section](#choosing-between-trackprofiles-and-trackprofiles_h) for which to choose. If in doubt then pick `TrackProfiles_h`.
+2. Copy all the track profiles from either the `TrackProfiles` folder.
 
 3. Place all of them into the `<route folder>/TrackProfiles` folder.
 
@@ -34,15 +32,7 @@ You can make all Dynatrax track shapes use a profile by default by adding `Dynat
 
 If there are Dynatrax track shapes that you want to use other track variants for, you can then rename the shape file names to include the DBTracks prefix. For example from `Dynatrax-40892.s` to `DB2z_Dynatrax-40892.s`.
 
-
-### Choosing between Trackprofiles and Trackprofiles_h:
-There are two versions of the DBTracks profiles. The default version named `Trackprofiles` and a version with extra embankments similar to the h variants of USTracks named `Trackprofiles_h`.
-
-The `Trackprofiles_h` version generally looks better with super-elevated track. So you might want to use that.
-
-The image below shows the difference between the two versions. One side of the default version often floats in the air while `Trackprofiles_h` almost never does.
-
-![Trackprofile versions](./TrackprofileVersions.png)
+As with previous versions of Open Rails you can also copy/paste a profile and rename it `TrProfile.stf` to use it for regular dyntrack.
 
 
 ### Further documentation:
