@@ -8,7 +8,7 @@ If you wish to replace dynamic tracks within a route and/or generate new track s
 ## Installation
 This repository only contains the track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/). You most likely have the textures already if you need these profiles for super-elevation.
 
-**NOTE:** Use of multiple profiles is only supported from Open Rails testing version _T1.5.1-1390_ or Open Rails NYMG rev. 160.2 onwards.
+**NOTE:** Use of multiple profiles is only supported from testing version _T1.5.1-1390_ or NYMG _rev. 160.2_ onwards.
 
 
 ### Steps to install:
