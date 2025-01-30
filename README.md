@@ -14,7 +14,7 @@ This repository only contains the track profiles. The textures can be obtained f
 ### Steps to install:
 1. Download and extract the [latest release](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases).
 
-2. Copy all the track profiles from either the `TrackProfiles` folder.
+2. Copy all the track profiles from the `TrackProfiles` folder.
 
 3. Place all of them into the `<route folder>/TrackProfiles` folder.
 
