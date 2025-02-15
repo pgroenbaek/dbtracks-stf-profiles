@@ -70,7 +70,7 @@ def parse_s_file(s_text):
 
 
 if __name__ == "__main__":
-    s_filepath = "D:\\Games\\Open Rails\\Tools\\sfm\\Shapes\\DB1w.s"
+    s_filepath = "D:\\Games\\Open Rails\\Tools\\sfm\\DB2s.s"
     max_point_z = 0.0
     lod_distance = 500
     

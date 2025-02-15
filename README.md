@@ -6,7 +6,7 @@ If you wish to replace dynamic tracks within a route and/or generate new track s
 
 
 ## Installation
-This repository only contains the track profiles. The textures can be obtained from the [DBTracks package](https://the-train.de/downloads/entry/11252-dbtracks/). You most likely have the textures already if you need these profiles for super-elevation.
+This repository only contains the track profiles. The textures can be obtained from the [DBTracks packages](https://dbtracks.com/pages/DownloadDBTracks.html). You most likely have the textures already if you need these profiles for super-elevation.
 
 **NOTE:** Use of multiple profiles is only supported from testing version _T1.5.1-1390_ or _NYMG rev. 160.2_ onwards.
 
@@ -65,7 +65,6 @@ More information about the technical aspects of STF track profiles in Open Rails
 | DB502             |                           | DB502, DB502b, DB502f, DB502fb         |
 | DR2               |                                 | DR2, DR2b, DR2f, DR2fb           |
 | DR20              |                                             | DR20, DR20b, DR20f, DR20fb          |
-| NR Bahntrasse 2   | NR_Emb, NR_Emb_lft, NR_Emb_rgt, NR_EmbBase, NR_Ramp, NR_Ramp_lft, NR_Ramp_rgt, NR_RWall_lft, NR_RWall_rgt, NR_WallEmb_lft, NR_WallEmb_rgt                                            |           |
 | V4hs              |                      | V4hs_DB1, V4hs_NP1, V4hs_NP2, V4hs_R2k, V4hs_RKL              |
 
 If anything is missing, feel free to suggest more by creating an issue.
