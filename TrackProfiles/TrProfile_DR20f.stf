@@ -1,7 +1,7 @@
 SIMISA@@@@@@@@@@JINX0p0t______
 TrProfile ( Name ( "DR20f" ) IncludedShapes ( "DR20f_*" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
 	LOD ( CutoffRadius ( 500 )
-		LODItem ( Name ( "mt_cwire" ) TexName ( "DB_Rails20.ace" ) ShaderName ( "TexDiff" )
+		LODItem ( Name ( "mt_cwire" ) TexName ( "DR_Rails20.ace" ) ShaderName ( "TexDiff" )
 			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )
 			ESD_Alternative_Texture ( 1 ) MipMapLevelOfDetailBias ( 0 )
 			Polyline ( Name ( "mt_cwire_top" ) DeltaTexCoord ( 1.6 0 )
