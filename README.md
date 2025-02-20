@@ -65,8 +65,8 @@ More information about the technical aspects of STF track profiles in Open Rails
 | DB502             |                           | DB502, DB502b, DB502f, DB502fb         |
 | DR2               |                                 | DR2, DR2b, DR2br, DR2f, DR2fb           |
 | DR20              |                                             | DR20, DR20b, DR20br, DR20f, DR20fb          |
-| DR3               | DR3, DR3b, DR3h, DR3he, DR3he2, DR3he3, DR3he4, DR3he5, DR3he6            |           |
-| DR30              | DR30, DR30b, DR30h, DR30he, DR30he2, DR30he3, DR30he4, DR30he5, DR30he6            |          |
+| DR3               |             | DR3, DR3b, DR3h, DR3he, DR3he2, DR3he3, DR3he4, DR3he5, DR3he6          |
+| DR30              |             | DR30, DR30b, DR30h, DR30he, DR30he2, DR30he3, DR30he4, DR30he5, DR30he6         |
 | DR4               |                                 | DR4br           |
 | V4hs              |                      | V4hs_DB1, V4hs_NP1, V4hs_NP2, V4hs_R2k, V4hs_RKL              |
 
