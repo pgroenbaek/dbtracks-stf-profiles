@@ -157,7 +157,7 @@ TrProfile ( Name ( "DR0br" ) IncludedShapes ( "DR20br_*" ) LODMethod ( "Complete
 				Vertex ( Position ( 0.9385 0.1650 ) Normal ( 0 1 0 ) TexCoord ( 0.0 0.3945 ) )
 			)
 		)
-		LODItem ( Name ( "mb_sleeperbase" ) TexName ( "DR_Track20.ace" ) ShaderName ( "BlendATexDiff" )
+		LODItem ( Name ( "mb_sleeperbase" ) TexName ( "DR_Track2.ace" ) ShaderName ( "BlendATexDiff" )
 			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 1 ) TexAddrModeName ( "Wrap" )
 			ESD_Alternative_Texture ( 1 ) MipMapLevelOfDetailBias ( 0 )
 			Polyline ( Name ( "mb_sleeperbase_left_outer" ) DeltaTexCoord ( 0 0.2 )
