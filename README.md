@@ -1,5 +1,11 @@
 
 # DBTracks STF Profiles
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/pgroenbaek/dbtracks-stf-profiles?style=flat&label=Latest%20Version)](https://github.com/pgroenbaek/dbtracks-stf-profiles/releases)
+[![Open Rails T1.5.1-1390+](https://img.shields.io/badge/Open%20Rails-T1.5.1--1390+-green?style=flat&labelOpen%20Rails&color=%237dc243)](https://openrails.org/)
+[![Open Rails NYMG rev. 160.2+](https://img.shields.io/badge/Open%20Rails%20NYMG-rev.%20160.2+-orange?style=flat&labelOpen%20Rails&color=%237dc243)](https://www.interazioni-educative.it/Downloads/index.php)
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 These track profiles allow use of the super-elevation feature in Open Rails together with Norbert Rieger's DBTracks. They mimic the original DBTracks shapes as best as possible.
 
 If you wish to replace dynamic tracks within a route and/or generate new track shapes, you should instead use the DPP profiles provided by Norbert with Dynatrax.
@@ -89,6 +95,7 @@ These track profiles were configured by Peter Grønbæk Andersen based on Norber
 
 The profiles are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
 ## Acknowledgements
 
@@ -104,3 +111,9 @@ All credit goes to Norbert as he is the author of the original DBTracks shapes.
 ![./Screenshots/DB1s_2.png](./Screenshots/DB1s_2.png)
 ![./Screenshots/V4hs_R2k_1.png](./Screenshots/V4hs_R2k_1.png)
 ![./Screenshots/V4hs_R2k_2.png](./Screenshots/V4hs_R2k_2.png)
+
+
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat&logo=creative-commons&logoColor=white

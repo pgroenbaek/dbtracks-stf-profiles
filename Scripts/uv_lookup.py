@@ -1,19 +1,40 @@
 
 """
+Find UV values of points in a shape based on X and Y point values.
 
-Find uv values of points in a shape based on X and Y value.
-
-Z values of points returned is limited to max_point_z.
-
+Z values of points returned are limited to max_point_z.
 """
 
 import math
 
 def read_s_file(s_filepath):
+    """
+    Reads the contents of a shape file encoded in UTF-16.
+    
+    Args:
+        s_filepath (str): The path to the shape file.
+    
+    Returns:
+        str: The content of the file as a string.
+    """
     with open(s_filepath, 'r', encoding='utf-16') as s_file:
         return s_file.read()
 
-def parse_s_file(s_text):
+
+def parse_s_file(s_text):´
+    """
+    Parses the content of a shape file and extracts 3D model data including points, UV points, UV index mapping.
+    
+    Args:
+        s_text (str): The content of the shape file.
+    
+    Returns:
+        tuple: A tuple containing:
+            - points (list of tuples): A list of 3D coordinate points.
+            - uv_points (list of tuples): A list of 2D UV coordinates.
+            - normals (list of tuples): A list of normal vectors.
+            - uv_idx_mapping (dict): A dictionary mapping point indices to UV indices.
+    """
     tokenized_lines = []
     points = []
     uv_points = []
@@ -67,6 +88,7 @@ def parse_s_file(s_text):
             pass
     
     return points, uv_points, normals, uv_idx_mapping
+
 
 
 if __name__ == "__main__":
