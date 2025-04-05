@@ -1,5 +1,7 @@
 
 """
+DEPRECATED. Do not use this. It is not necessary in newer versions of Open Rails.
+
 Generates a route-specific tsection.dat with entries to make super-elevation work for Dynatrax sections, and adds custom trackshape and tracksection entries from the .txt files.
 It does not modify the existing local or global tsection but extends the global tsection by using the '<route folder>/openrails/tsection.dat' file.
 
