@@ -1,5 +1,5 @@
 SIMISA@@@@@@@@@@JINX0p0t______
-TrProfile ( Name ( "DB2sh" ) IncludedShapes ( "DB2sh_*" ) ExcludedShapes ( "DB2sh_*_lft" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
+TrProfile ( Name ( "DB2sh" ) IncludedShapes ( "DB2sh_*" ) ExcludedShapes ( "DB2sh_*_lft" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 0.286 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
 	LOD ( CutoffRadius ( 500 )
 		LODItem ( Name ( "m_r3h1_t0" ) TexName ( "DB_R3H1.ace" ) ShaderName ( "TexDiff" )
 			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )

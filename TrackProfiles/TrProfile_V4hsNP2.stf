@@ -1,5 +1,5 @@
 SIMISA@@@@@@@@@@JINX0p0t______
-TrProfile ( Name ( "V4hs_NP2" ) IncludedShapes ( "V4hs_NP2_*, V4hs1t_NP2_*, V4hs2t_NP2_*" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
+TrProfile ( Name ( "V4hs_NP2" ) IncludedShapes ( "V4hs_NP2_*, V4hs1t_NP2_*, V4hs2t_NP2_*" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 0.286 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
 	LOD ( CutoffRadius ( 350 )
 		LODItem ( Name ( "mt_cwire" ) TexName ( "V4_Rails1.ace" ) ShaderName ( "TexDiff" )
 			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )

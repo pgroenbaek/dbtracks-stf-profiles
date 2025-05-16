@@ -1,5 +1,5 @@
 SIMISA@@@@@@@@@@JINX0p0t______
-TrProfile ( Name ( "DB30f" ) IncludedShapes ( "DB30f_*" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
+TrProfile ( Name ( "DB30f" ) IncludedShapes ( "DB30f_*" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 0.286 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
 	LOD ( CutoffRadius ( 500 )
 		LODItem ( Name ( "mt_cwire" ) TexName ( "DB_Rails30w.ace" ) ShaderName ( "TexDiff" )
 			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )

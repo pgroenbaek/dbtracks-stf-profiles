@@ -1,5 +1,5 @@
 SIMISA@@@@@@@@@@JINX0p0t______
-TrProfile ( Name ( "DR30he2" ) IncludedShapes ( "DR30he2_*" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 1 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
+TrProfile ( Name ( "DR30he2" ) IncludedShapes ( "DR30he2_*" ) LODMethod ( "CompleteReplacement" ) ChordSpan ( 0.286 ) PitchControl ( "ChordLength" ) PitchControlScalar ( 10 )
 	LOD ( CutoffRadius ( 500 )
 		LODItem ( Name ( "mt_rtops" ) TexName ( "DR_Rails20.ace" ) ShaderName ( "TexDiff" )
 			LightModelName ( "OptSpecular0" ) AlphaTestMode ( 0 ) TexAddrModeName ( "Wrap" )
